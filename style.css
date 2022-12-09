@@ -40,9 +40,7 @@
   border-radius: 4px;
   background-color: #FFFFFF;
 }
-.list-item {
-  display: list-item;
-}
+
 .input {
   color: var(--dl-color-colours-text);
   cursor: auto;

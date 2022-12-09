@@ -47,6 +47,9 @@
   .navigation-links1-text1 {
     margin-bottom: var(--dl-space-space-unit);
   }
+  .navigation-links1-root-class-name12 {
+    margin-left: 0px;
+  }
 }
 @media(max-width: 479px) {
   .navigation-links1-nav {
@@ -55,6 +58,6 @@
     flex-direction: row;
   }
   .navigation-links1-root-class-name12 {
-    margin-left: var(--dl-space-space-tripleunit);
+    margin-left: var(--dl-space-space-doubleunit);
   }
 }

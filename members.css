@@ -47,6 +47,9 @@
   .navigation-links1-text1 {
     margin-bottom: var(--dl-space-space-unit);
   }
+  .navigation-links1-root-class-name12 {
+    margin-left: 0px;
+  }
 }
 @media(max-width: 479px) {
   .navigation-links1-nav {
@@ -55,7 +58,7 @@
     flex-direction: row;
   }
   .navigation-links1-root-class-name12 {
-    margin-left: var(--dl-space-space-tripleunit);
+    margin-left: var(--dl-space-space-doubleunit);
   }
 }
 
@@ -116,6 +119,8 @@
     padding-right: 32px;
   }
   .nav-bar-container2 {
+    width: auto;
+    height: auto;
     margin-left: 0px;
   }
   .nav-bar-nav {
@@ -137,7 +142,8 @@
   .nav-bar-container2 {
     top: -30px;
     left: -70px;
-    width: 419px;
+    width: 289px;
+    height: 58px;
     position: absolute;
     margin-left: 0px;
     flex-direction: row;
@@ -146,7 +152,7 @@
   .nav-bar-logo {
     width: 63px;
     height: 63px;
-    margin-right: var(--dl-space-space-sixunit);
+    margin-right: 0px;
   }
   .nav-bar-nav {
     width: auto;
@@ -607,7 +613,7 @@
   height: auto;
   display: flex;
   align-self: flex-end;
-  align-items: flex-start;
+  align-items: center;
   margin-right: 5rem;
   justify-content: center;
 }
@@ -740,5 +746,249 @@
 @media(max-width: 767px) {
   .members-liam-tugonon {
     margin-right: var(--dl-space-space-tripleunit);
+  }
+}
+@media(max-width: 479px) {
+  .members-our-team {
+    width: 100%;
+    height: 3789px;
+    padding-bottom: 0px;
+  }
+  .members-olivia {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .members-olivia-fong {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .members-container1 {
+    align-self: center;
+  }
+  .members-image {
+    align-self: center;
+  }
+  .members-oliviafong {
+    align-self: center;
+    margin-top: var(--dl-space-space-tripleunit);
+  }
+  .members-olivia1 {
+    align-self: center;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .members-occupation {
+    align-self: center;
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .members-navlink {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .members-paul {
+    width: 100%;
+    height: 484px;
+    margin-top: var(--dl-space-space-sixunit);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .members-paul-sheo {
+    width: 308px;
+    height: 100%;
+    flex-direction: column;
+  }
+  .members-container2 {
+    align-self: center;
+  }
+  .members-paul1 {
+    align-self: center;
+    margin-top: var(--dl-space-space-tripleunit);
+  }
+  .members-paul2 {
+    align-self: center;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .members-occupation1 {
+    align-self: center;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .members-button {
+    margin-left: 0px;
+  }
+  .members-madhu {
+    width: 100%;
+    height: 642px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .members-madhu-laxmi {
+    width: 320px;
+    height: 433px;
+    margin-top: var(--dl-space-space-sixunit);
+    flex-direction: column;
+  }
+  .members-container3 {
+    align-self: center;
+  }
+  .members-image2 {
+    align-self: center;
+  }
+  .members-madhu1 {
+    align-self: center;
+    margin-top: var(--dl-space-space-tripleunit);
+  }
+  .members-madhu2 {
+    align-self: center;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .members-occupation2 {
+    align-self: center;
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .members-button1 {
+    align-self: center;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .members-jenny {
+    width: 100%;
+    height: 464px;
+    align-self: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .members-jenny-bui {
+    width: 320px;
+    height: 100%;
+    flex-direction: column;
+  }
+  .members-container4 {
+    align-self: center;
+  }
+  .members-image3 {
+    align-self: center;
+  }
+  .members-jenny1 {
+    align-self: center;
+    margin-top: var(--dl-space-space-tripleunit);
+  }
+  .members-jenny2 {
+    align-self: center;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .members-occupation3 {
+    align-self: center;
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .members-button2 {
+    align-self: center;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .members-byron {
+    width: 100%;
+    height: 599px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .members-bryon {
+    width: auto;
+    height: auto;
+    align-self: center;
+    margin-top: var(--dl-space-space-sixunit);
+    flex-direction: column;
+  }
+  .members-container5 {
+    align-self: center;
+  }
+  .members-image4 {
+    align-self: center;
+  }
+  .members-byron1 {
+    height: 116px;
+    align-self: center;
+    margin-top: var(--dl-space-space-doubleunit);
+  }
+  .members-byron2 {
+    align-self: center;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .members-occupation4 {
+    margin-left: 0px;
+  }
+  .members-button3 {
+    margin-top: var(--dl-space-space-doubleunit);
+    margin-left: 0px;
+  }
+  .members-liam {
+    width: 100%;
+    height: 563px;
+    align-self: center;
+    margin-top: var(--dl-space-space-sixunit);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    justify-content: flex-start;
+  }
+  .members-liam-tugonon {
+    width: 320px;
+    height: 475px;
+    margin-top: var(--dl-space-space-tripleunit);
+    align-items: flex-start;
+    margin-right: 0px;
+    flex-direction: column;
+  }
+  .members-container6 {
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .members-image5 {
+    align-self: center;
+  }
+  .members-liam1 {
+    align-self: center;
+    margin-top: var(--dl-space-space-doubleunit);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .members-liam2 {
+    align-self: center;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .members-occupation5 {
+    align-self: center;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .members-button4 {
+    align-self: center;
+    margin-top: var(--dl-space-space-doubleunit);
+    margin-left: 0px;
   }
 }

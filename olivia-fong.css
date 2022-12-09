@@ -47,6 +47,9 @@
   .navigation-links1-text1 {
     margin-bottom: var(--dl-space-space-unit);
   }
+  .navigation-links1-root-class-name12 {
+    margin-left: 0px;
+  }
 }
 @media(max-width: 479px) {
   .navigation-links1-nav {
@@ -55,7 +58,7 @@
     flex-direction: row;
   }
   .navigation-links1-root-class-name12 {
-    margin-left: var(--dl-space-space-tripleunit);
+    margin-left: var(--dl-space-space-doubleunit);
   }
 }
 
@@ -116,6 +119,8 @@
     padding-right: 32px;
   }
   .nav-bar-container2 {
+    width: auto;
+    height: auto;
     margin-left: 0px;
   }
   .nav-bar-nav {
@@ -137,7 +142,8 @@
   .nav-bar-container2 {
     top: -30px;
     left: -70px;
-    width: 419px;
+    width: 289px;
+    height: 58px;
     position: absolute;
     margin-left: 0px;
     flex-direction: row;
@@ -146,7 +152,7 @@
   .nav-bar-logo {
     width: 63px;
     height: 63px;
-    margin-right: var(--dl-space-space-sixunit);
+    margin-right: 0px;
   }
   .nav-bar-nav {
     width: auto;
@@ -316,7 +322,7 @@
 }
 .olivia-fong-aboutme {
   width: auto;
-  height: 605px;
+  height: auto;
   display: flex;
   margin-top: var(--dl-space-space-tripleunit);
   align-items: flex-start;
@@ -334,8 +340,8 @@
   justify-content: center;
 }
 .olivia-fong-about {
-  width: 971px;
-  height: 546px;
+  width: auto;
+  height: auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -349,7 +355,7 @@
   font-weight: 500;
   margin-left: var(--dl-space-space-sixunit);
 }
-.olivia-fong-container2 {
+.olivia-fong-about-me-container {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -359,13 +365,14 @@
 }
 .olivia-fong-text06 {
   color: var(--dl-color-colours-text);
-  width: 25rem;
+  width: 530px;
   font-size: 24px;
   margin-top: var(--dl-space-space-unit);
   font-family: Inter;
   font-weight: 400;
   line-height: 1.55;
-  margin-left: 10rem;
+  margin-left: var(--dl-space-space-sixunit);
+  margin-right: var(--dl-space-space-sixunit);
   text-transform: none;
   text-decoration: none;
 }
@@ -373,12 +380,13 @@
   text-transform: none;
 }
 .olivia-fong-olivia {
-  width: 459px;
-  height: 426px;
-  margin-top: var(--dl-space-space-doubleunit);
+  width: auto;
+  height: auto;
+  box-shadow: 5px 5px 10px 0px #746c6b;
+  margin-top: 0px;
   object-fit: cover;
   transition: 0.3s;
-  margin-right: var(--dl-space-space-doubleunit);
+  margin-right: 0px;
   border-radius: var(--dl-radius-radius-radius8);
 }
 .olivia-fong-olivia:hover {
@@ -564,7 +572,7 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-.olivia-fong-container3 {
+.olivia-fong-container2 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: flex-start;
@@ -899,9 +907,33 @@
   .olivia-fong-hero-links {
     margin-left: 50rem;
   }
+  .olivia-fong-aboutme {
+    width: 100%;
+    height: 583px;
+  }
+  .olivia-fong-container1 {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+  .olivia-fong-about {
+    width: auto;
+    height: auto;
+  }
   .olivia-fong-text06 {
     width: 25rem;
-    margin-left: 10rem;
+    margin-left: var(--dl-space-space-sixunit);
+    margin-right: var(--dl-space-space-sixunit);
+  }
+  .olivia-fong-olivia {
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  .olivia-fong-hobbies {
+    width: 100%;
+    height: auto;
   }
   .olivia-fong-text12 {
     margin-left: var(--dl-space-space-sixunit);
@@ -932,14 +964,18 @@
     text-decoration: none;
   }
   .olivia-fong-quicklinks-container {
-    width: 1088px;
+    width: 100%;
+    height: auto;
     margin-bottom: var(--dl-space-space-doubleunit);
   }
   .olivia-fong-arrow {
     align-self: center;
   }
   .olivia-fong-hero-links {
+    width: 236px;
+    height: 191px;
     margin-left: 0rem;
+    margin-right: var(--dl-space-space-doubleunit);
   }
   .olivia-fong-aboutme {
     width: 100%;
@@ -947,22 +983,52 @@
     flex-direction: row;
   }
   .olivia-fong-container1 {
-    width: 100%;
+    width: auto;
+    height: auto;
     align-items: flex-start;
     flex-direction: row;
     justify-content: center;
   }
   .olivia-fong-about {
-    width: 715px;
-    height: 411px;
+    width: auto;
+    height: auto;
+  }
+  .olivia-fong-about-me-container {
+    align-self: center;
+    padding-top: var(--dl-space-space-doubleunit);
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+    padding-bottom: var(--dl-space-space-doubleunit);
   }
   .olivia-fong-text06 {
-    width: 25rem;
+    width: auto;
+    height: auto;
+    margin-left: var(--dl-space-space-tripleunit);
+    margin-right: var(--dl-space-space-tripleunit);
+  }
+  .olivia-fong-olivia {
+    margin-top: 0px;
+    margin-right: 0px;
   }
   .olivia-fong-hobbies {
     width: 100%;
     height: 1468px;
     align-self: center;
+  }
+  .olivia-fong-text09 {
+    top: 150px;
+  }
+  .olivia-fong-text10 {
+    top: 150px;
+  }
+  .olivia-fong-text11 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 527px;
+    bottom: 0px;
+    height: 121px;
+    margin: auto;
   }
   .olivia-fong-text12 {
     margin-left: 0rem;
@@ -986,16 +1052,19 @@
   .olivia-fong-quicklinks-container {
     width: 100%;
     height: 132px;
+    align-items: flex-start;
+    justify-content: center;
   }
   .olivia-fong-arrow {
-    width: 107px;
-    height: 101px;
-    margin-left: var(--dl-space-space-sixunit);
+    width: 103px;
+    height: 110px;
+    margin-left: var(--dl-space-space-tripleunit);
   }
   .olivia-fong-hero-links {
-    width: 196px;
-    margin-left: 35rem;
-    margin-right: var(--dl-space-space-sixunit);
+    width: auto;
+    height: auto;
+    margin-left: 30rem;
+    margin-right: var(--dl-space-space-tripleunit);
   }
   .olivia-fong-about-me {
     color: var(--dl-color-colours-text);
@@ -1025,37 +1094,130 @@
     margin-right: 0px;
   }
   .olivia-fong-aboutme {
-    height: 585px;
+    height: 881px;
+    position: relative;
   }
   .olivia-fong-container1 {
-    height: 427px;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .olivia-fong-about {
+    width: 100%;
+    height: 699px;
+  }
+  .olivia-fong-text05 {
+    margin-left: var(--dl-space-space-doubleunit);
+  }
+  .olivia-fong-about-me-container {
+    width: auto;
+    height: auto;
+    align-self: center;
+    flex-direction: column;
   }
   .olivia-fong-text06 {
-    margin-left: var(--dl-space-space-sixunit);
+    width: 558px;
+    height: auto;
+    margin-top: var(--dl-space-space-doubleunit);
+    text-align: center;
+    margin-left: var(--dl-space-space-doubleunit);
     margin-right: var(--dl-space-space-doubleunit);
+    margin-bottom: var(--dl-space-space-doubleunit);
   }
   .olivia-fong-olivia {
-    width: 388px;
-    height: 374px;
-    margin-right: var(--dl-space-space-tripleunit);
+    width: 309px;
+    height: 297px;
+    margin: var(--dl-space-space-unit);
+    align-self: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .olivia-fong-hobbies {
+    width: 100%;
+    height: auto;
   }
   .olivia-fong-tea {
     width: 100%;
   }
+  .olivia-fong-text09 {
+    top: 153px;
+    left: 2px;
+    position: absolute;
+    padding-bottom: 0px;
+  }
+  .olivia-fong-tea1 {
+    width: auto;
+    height: auto;
+  }
   .olivia-fong-baking {
     width: 100%;
   }
+  .olivia-fong-text10 {
+    top: 152px;
+    left: 23px;
+  }
+  .olivia-fong-cookies {
+    width: auto;
+    height: auto;
+  }
   .olivia-fong-taekwondo {
-    width: 100%;
+    width: auto;
+    height: auto;
+  }
+  .olivia-fong-text11 {
+    top: 150px;
+    left: -160px;
+  }
+  .olivia-fong-belt {
+    width: 600px;
+    height: 394px;
+  }
+  .olivia-fong-services1 {
+    height: 700px;
   }
   .olivia-fong-text12 {
     align-self: flex-start;
-    margin-left: var(--dl-space-space-halfunit);
+    margin-left: 0px;
+  }
+  .olivia-fong-text14 {
+    width: auto;
+    height: auto;
+    margin-left: var(--dl-space-space-doubleunit);
+  }
+  .olivia-fong-education1 {
+    height: auto;
+    align-self: center;
+  }
+  .olivia-fong-education2 {
+    align-self: flex-start;
+  }
+  .olivia-fong-school-1 {
+    width: auto;
+    height: auto;
+    align-self: flex-start;
+  }
+  .olivia-fong-school-2 {
+    width: auto;
+    height: auto;
+    align-self: flex-start;
+  }
+  .olivia-fong-highschool {
+    width: auto;
+    height: auto;
+    align-self: flex-start;
+  }
+  .olivia-fong-highschool1 {
+    width: auto;
+    height: auto;
+    align-self: flex-start;
   }
   .olivia-fong-projects3 {
     margin-top: var(--dl-space-space-doubleunit);
   }
   .olivia-fong-personal-website {
+    width: 783px;
     height: 370px;
   }
   .olivia-fong-text27 {
@@ -1067,8 +1229,8 @@
     margin-right: var(--dl-space-space-doubleunit);
   }
   .olivia-fong-discord-bot {
-    width: 928px;
-    height: 458px;
+    width: 783px;
+    height: 455px;
   }
   .olivia-fong-text32 {
     top: 106px;
@@ -1082,8 +1244,20 @@
     flex-direction: column;
   }
   .olivia-fong-header {
+    color: var(--dl-color-colours-text);
+    width: 316px;
     height: 410px;
+    font-size: 64px;
+    align-self: center;
+    font-style: normal;
     margin-top: 0px;
+    text-align: justify;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 1.55;
+    letter-spacing: 12px;
+    text-transform: capitalize;
+    text-decoration: none;
   }
   .olivia-fong-quicklinks-container {
     width: 767px;
@@ -1094,19 +1268,22 @@
     height: auto;
   }
   .olivia-fong-container1 {
-    height: 418px;
+    width: 489px;
+    height: auto;
     margin-top: var(--dl-space-space-doubleunit);
     margin-bottom: var(--dl-space-space-doubleunit);
+    flex-direction: column;
   }
   .olivia-fong-about {
-    width: 463px;
-    height: 399px;
+    width: auto;
+    height: 416px;
+    align-self: center;
     align-items: center;
     justify-content: center;
   }
   .olivia-fong-text05 {
     align-self: flex-start;
-    margin-left: var(--dl-space-space-tripleunit);
+    margin-left: 0px;
   }
   .olivia-fong-text06 {
     width: 353px;
@@ -1118,100 +1295,137 @@
   .olivia-fong-olivia {
     width: 257px;
     height: 247px;
-    margin-top: var(--dl-space-space-sixunit);
-    margin-right: var(--dl-space-space-doubleunit);
+    align-self: center;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  .olivia-fong-hobbies {
+    height: auto;
+    align-self: center;
   }
   .olivia-fong-tea {
     height: auto;
+    justify-content: center;
   }
   .olivia-fong-text09 {
-    top: 110px;
-    left: 130px;
+    top: 0px;
+    left: -15px;
+    bottom: 0px;
+    height: 76px;
+    margin: auto;
     font-size: 64px;
     padding-bottom: 0px;
   }
   .olivia-fong-tea1 {
-    width: 500px;
-    height: 300px;
+    width: 458px;
+    height: 282px;
     align-self: center;
   }
   .olivia-fong-baking {
     height: auto;
+    align-self: center;
+    justify-content: center;
   }
   .olivia-fong-text10 {
-    top: 110px;
-    left: 55px;
+    top: 85px;
+    left: -15px;
+    height: 84px;
+    margin: auto;
     font-size: 64px;
   }
   .olivia-fong-cookies {
-    width: 500px;
-    height: 300px;
+    width: 458px;
+    height: 293px;
   }
   .olivia-fong-taekwondo {
     height: auto;
+    align-self: center;
+    justify-content: center;
   }
   .olivia-fong-text11 {
-    top: 110px;
-    left: 55px;
+    top: -10px;
+    left: -15px;
+    width: 350px;
+    height: 81px;
     font-size: 64px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-sixunit);
   }
   .olivia-fong-belt {
-    width: 500px;
-    height: 300px;
+    width: 458px;
+    height: 293px;
+  }
+  .olivia-fong-services1 {
+    height: 540px;
+  }
+  .olivia-fong-text12 {
+    width: 408px;
+    margin-left: 0px;
   }
   .olivia-fong-text14 {
-    width: 649px;
-    height: 272px;
-    font-size: 68px;
+    width: 489px;
+    height: 399px;
+    font-size: 64px;
   }
   .olivia-fong-education1 {
-    height: 756px;
+    height: auto;
   }
   .olivia-fong-school-1 {
-    width: 718px;
-    height: 180px;
-    font-size: 36px;
-  }
-  .olivia-fong-school-2 {
-    width: 718px;
-    height: 160px;
-    font-size: 36px;
-  }
-  .olivia-fong-highschool {
-    width: 718px;
+    width: 461px;
     height: 129px;
     font-size: 36px;
+    margin-left: var(--dl-space-space-doubleunit);
+  }
+  .olivia-fong-school-2 {
+    width: 456px;
+    height: 137px;
+    font-size: 36px;
+    margin-left: var(--dl-space-space-doubleunit);
+  }
+  .olivia-fong-highschool {
+    width: 458px;
+    height: 126px;
+    font-size: 36px;
+    margin-left: var(--dl-space-space-doubleunit);
   }
   .olivia-fong-highschool1 {
-    width: 718px;
-    height: 80px;
+    width: 458px;
+    height: 106px;
     font-size: 36px;
+    margin-left: var(--dl-space-space-doubleunit);
   }
   .olivia-fong-projects1 {
-    height: 1027px;
+    width: auto;
+    height: auto;
+    margin-top: var(--dl-space-space-sixunit);
   }
   .olivia-fong-personal-website {
-    width: 767px;
-    height: 308px;
+    width: 482px;
+    height: 303px;
     margin-bottom: 0px;
   }
   .olivia-fong-text27 {
-    top: 80px;
-    left: 50px;
+    top: -50px;
+    left: 85px;
+    height: 155px;
     font-size: 64px;
   }
   .olivia-fong-belt1 {
     width: 477px;
     height: 299px;
     align-self: center;
+    margin-right: 0px;
   }
   .olivia-fong-discord-bot {
-    width: 767px;
-    height: 422px;
+    width: 482px;
+    height: 419px;
+    align-self: center;
+    justify-content: center;
   }
   .olivia-fong-text32 {
-    top: 130px;
-    left: 50px;
+    top: -50px;
+    left: 100px;
     width: auto;
     height: auto;
     margin: auto;
@@ -1221,7 +1435,25 @@
     width: 413px;
     height: 332px;
     align-self: center;
-    margin-right: var(--dl-space-space-tripleunit);
+    margin-right: 0px;
+  }
+  .olivia-fong-contacts {
+    margin-top: var(--dl-space-space-sixunit);
+  }
+  .olivia-fong-contacts1 {
+    margin-left: var(--dl-space-space-doubleunit);
+  }
+  .olivia-fong-email {
+    width: 453px;
+    height: 220px;
+    font-size: 64px;
+    margin-left: var(--dl-space-space-doubleunit);
+  }
+  .olivia-fong-number {
+    margin-left: var(--dl-space-space-doubleunit);
+  }
+  .olivia-fong-location {
+    margin-left: var(--dl-space-space-doubleunit);
   }
 }
 @media(max-width: 479px) {
@@ -1251,20 +1483,28 @@
     width: 479px;
     height: 39px;
   }
+  .olivia-fong-aboutme {
+    width: auto;
+  }
   .olivia-fong-container1 {
-    height: auto;
+    width: 320px;
+    height: 486px;
     flex-direction: column;
   }
   .olivia-fong-about {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 195px;
     align-self: center;
   }
   .olivia-fong-text05 {
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-unit);
   }
   .olivia-fong-text06 {
+    width: 320px;
+    height: 110px;
     font-size: 16px;
+    text-align: center;
+    margin-left: 0px;
   }
   .olivia-fong-olivia {
     align-self: center;
@@ -1273,7 +1513,7 @@
     margin-bottom: var(--dl-space-space-doubleunit);
   }
   .olivia-fong-hobbies {
-    height: 850px;
+    height: auto;
     padding: var(--dl-space-space-tripleunit);
   }
   .olivia-fong-tea {
@@ -1283,7 +1523,7 @@
   }
   .olivia-fong-text09 {
     top: 55px;
-    left: 80px;
+    left: 34px;
     font-size: 32px;
   }
   .olivia-fong-tea1 {
@@ -1312,8 +1552,10 @@
   .olivia-fong-text11 {
     top: 55px;
     left: 20px;
+    width: 181px;
     height: 37px;
     font-size: 32px;
+    margin-bottom: 4rem;
   }
   .olivia-fong-belt {
     width: 246px;
@@ -1322,7 +1564,7 @@
   }
   .olivia-fong-services1 {
     width: 100%;
-    height: 330px;
+    height: 383px;
     margin-top: var(--dl-space-space-sixunit);
     padding-top: var(--dl-space-space-halfunit);
     padding-left: var(--dl-space-space-halfunit);
@@ -1332,48 +1574,67 @@
   .olivia-fong-text12 {
     width: auto;
     height: auto;
-    margin-left: var(--dl-space-space-unit);
   }
   .olivia-fong-text14 {
-    width: 351px;
-    height: 223px;
-    font-size: 48px;
+    color: var(--dl-color-colours-text);
+    width: auto;
+    height: auto;
+    font-size: 38px;
     margin-top: var(--dl-space-space-doubleunit);
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 122.023%;
+    margin-left: var(--dl-space-space-unit);
+    text-transform: uppercase;
+    text-decoration: none;
   }
   .olivia-fong-education1 {
+    height: 948px;
     margin-top: var(--dl-space-space-sixunit);
   }
   .olivia-fong-school-1 {
     width: auto;
     height: auto;
     font-size: 32px;
+    margin-top: var(--dl-space-space-doubleunit);
+    margin-left: 0px;
   }
   .olivia-fong-school-2 {
     width: auto;
     height: auto;
     font-size: 32px;
+    align-self: center;
+    margin-top: var(--dl-space-space-doubleunit);
+    margin-left: 0px;
   }
   .olivia-fong-highschool {
     width: auto;
     height: auto;
     font-size: 32px;
+    align-self: center;
+    margin-top: var(--dl-space-space-doubleunit);
+    margin-left: 0px;
   }
   .olivia-fong-highschool1 {
     width: auto;
     height: auto;
     font-size: 32px;
     align-self: flex-start;
+    margin-top: var(--dl-space-space-doubleunit);
+    margin-left: 0px;
   }
   .olivia-fong-projects1 {
     height: auto;
+    margin-top: var(--dl-space-space-sixunit);
   }
   .olivia-fong-personal-website {
-    width: 373px;
-    height: 168px;
+    width: 336px;
+    height: 183px;
   }
   .olivia-fong-text27 {
     top: 50px;
     left: 13px;
+    height: 58px;
     font-size: 24px;
   }
   .olivia-fong-belt1 {
@@ -1381,8 +1642,8 @@
     height: 170px;
   }
   .olivia-fong-discord-bot {
-    width: 373px;
-    height: 215px;
+    width: 320px;
+    height: 212px;
   }
   .olivia-fong-text32 {
     top: 75px;
