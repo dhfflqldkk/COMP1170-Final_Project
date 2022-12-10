@@ -1,0 +1,46 @@
+body{
+    background-image: url('madhu-images/pexels-photo.jpeg');
+    height: 100%;
+}
+
+.whole-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.main-box{
+    
+    background-image:url(aura.jpg);
+    height: 80%;
+    width: 80%;
+    margin-top: 10%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.degree-image-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 100px;
+
+}
+.degree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.graduate{
+    margin-top: 30px;
+    height: 200px;
+    box-shadow: 5px 5px 5px rgb(171, 169, 170);
+}

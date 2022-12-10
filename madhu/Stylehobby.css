@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(136, 174, 136);
+    height: 100%;
+}
+
+.main-box{
+    background-color: rgb(244, 234, 242);
+    height: 90%;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2{
+    text-align: center;
+    color: rgb(8, 8, 35);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hiking-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    
+}
+img:hover{
+    background-color: aliceblue;
+    
+
+}
+.Photography-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10px;
+
+}
